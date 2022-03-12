@@ -21,20 +21,20 @@ This is my personal configuration of the doom emacs
   + add ~sudo-find-file- function for replace sudo by doas.
 + =init.el=
   Enable follow modules:
-  + ~company~           ; the ultimate code completion backend
-  + ~vertico~           ; the search engine of the future
-  + ~multiple-cursors~  ; editing in many places at once
-  + ~snippets~          ; my elves. They type so I don't have to
-  + dired             ; making dired pretty [functional]
-  + electric          ; smarter, keyword-based electric-indent
-  + undo              ; persistent, smarter undo for your inevitable mistakes
-  + vc                ; version-control and Emacs, sitting in a tree
-  + syntax              ; tasing you for every semicolon you forget
-  + (spell +flyspell) ; tasing you for misspelling mispelling
-  + grammar           ; tasing grammar mistake every you make
-  + lookup              ; navigate your code and its documentation
-  + lsp               ; M-x vscode
-  + magit             ; a git porcelain for Emacs
-
+  + ~company~            ; the ultimate code completion backend
+  + ~vertico~            ; the search engine of the future
+  + ~multiple-cursors~   ; editing in many places at once
+  + ~snippets~           ; my elves. They type so I don't have to
+  + ~dired~              ; making dired pretty [functional]
+  + ~electric~           ; smarter, keyword-based electric-indent
+  + ~undo~               ; persistent, smarter undo for your inevitable mistakes
+  + ~vc~                 ; version-control and Emacs, sitting in a tree
+  + ~syntax~             ; tasing you for every semicolon you forget
+  + ~(spell +flyspell)~  ; tasing you for misspelling mispelling
+  + ~grammar~            ; tasing grammar mistake every you make
+  + ~lookup~             ; navigate your code and its documentation
+  + ~lsp~                ; M-x vscode
+  + ~magit~              ; a git porcelain for Emacs
+  + ~pdf~                ; pdf enhancements
 + =packages.el=
   nothing yet.
