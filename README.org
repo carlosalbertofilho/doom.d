@@ -1,0 +1,40 @@
+#+TITLE:   Doom Configuration
+#+DATE:    March 11, 2022
+#+SINCE:   <replace with next tagged release version>
+#+STARTUP: inlineimages nofold
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#maintainers][Maintainers]]
+  - [[#module-flags][Module Flags]]
+
+* Description
+This is my personal configuration of the doom emacs
+
+
+** Maintainers
++ @carlosalbertofilho (Author)
+
+** Module Flags
++ =config.el=
+  + add ~flyspell~ for English and Brazilian Lang support.
+  + add ~sudo-find-file- function for replace sudo by doas.
++ =init.el=
+  Enable follow modules:
+  + ~company~           ; the ultimate code completion backend
+  + ~vertico~           ; the search engine of the future
+  + ~multiple-cursors~  ; editing in many places at once
+  + ~snippets~          ; my elves. They type so I don't have to
+  + dired             ; making dired pretty [functional]
+  + electric          ; smarter, keyword-based electric-indent
+  + undo              ; persistent, smarter undo for your inevitable mistakes
+  + vc                ; version-control and Emacs, sitting in a tree
+  + syntax              ; tasing you for every semicolon you forget
+  + (spell +flyspell) ; tasing you for misspelling mispelling
+  + grammar           ; tasing grammar mistake every you make
+  + lookup              ; navigate your code and its documentation
+  + lsp               ; M-x vscode
+  + magit             ; a git porcelain for Emacs
+
++ =packages.el=
+  nothing yet.
