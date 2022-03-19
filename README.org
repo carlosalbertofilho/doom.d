@@ -19,6 +19,9 @@ This is my personal configuration of the doom emacs
 + =config.el=
   + add ~flyspell~ for English and Brazilian Lang support.
   + add ~sudo-find-file- function for replace sudo by doas.
+  + add elfeed - rss reader
+  + add virtual env wrapper for Python
+  + add Easy PG for full GPG control
 + =init.el=
   Enable follow modules:
   + ~company~            ; the ultimate code completion backend
@@ -36,5 +39,6 @@ This is my personal configuration of the doom emacs
   + ~lsp~                ; M-x vscode
   + ~magit~              ; a git porcelain for Emacs
   + ~pdf~                ; pdf enhancements
+  + ~(rss +org)~         ; emacs as an RSS reader
 + =packages.el=
   nothing yet.

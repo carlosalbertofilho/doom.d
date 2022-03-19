@@ -48,3 +48,8 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+
+;; virtual env wrapper python
+(package! virtualenvwrapper
+  :recipe (:host github :repo "porterjamesj/virtualenvwrapper.el"
+           :files ("virtualenvwrapper" "virtualenvwrapper.el")))

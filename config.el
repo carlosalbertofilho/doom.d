@@ -92,3 +92,28 @@
   (interactive)
   (ispell-change-dictionary "brasileiro")
   (flyspell-buffer))
+
+;; elfeed-org
+(require 'elfeed-org)
+
+;; Initialize elfeed-org
+;; This hooks up elfeed-org to read the configuration when elfeed
+;; is started with =M-x elfeed=
+(elfeed-org)
+
+;; Optionally specify a number of files containing elfeed
+;; configuration. If not set then the location below is used.
+;; Note: The customize interface is also supported.
+(setq rmh-elfeed-org-files (list "~/.doom.d/elfeed.org"))
+
+;; virtual env wrapper python
+(with-eval-after-load "esh-opt"
+  (require 'virtualenvwrapper)
+  (venv-initialize-eshell)
+  (autoload 'epe-theme-lambda "eshell-prompt-extras")
+  (setq eshell-highlight-prompt nil
+        eshell-prompt-function 'epe-theme-lambda))
+
+;; Easy PG
+(require 'epa-file)
+(epa-file-enable)

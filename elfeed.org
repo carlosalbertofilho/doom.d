@@ -1,0 +1,38 @@
+#+TITLE: Elfeed
+
+
+* Blogs                                                              :elfeed:
+** entry-title: \(linux\|linus\|freebsd\) :linux:
+** http://git-annex.branchable.com/design/assistant/blog/index.rss :mustread:
+** http://feeds.feedburner.com/InformationIsBeautiful
+** [[http://orgmode.org][Org Mode Links supported as well]]
+** Open Source
+*** https://www.reddit.com/r/linux.rss                                 :linux:
+*** https://www.reddit.com/r/commandline.rss                           :linux:
+*** https://www.reddit.com/r/freebsd.rss                               :freebsd:
+*** https://opensource.com/fed
+*** https://www.FreeBSD.org/news/feed.xml
+** Software Development :dev:
+*** Emacs                                                    :emacs:mustread:
+**** http://www.terminally-incoherent.com/blog/feed
+**** http://nullprogram.com/feed
+**** entry-title: \(emacs\|org-mode\)
+**** http://planet.emacsen.org/atom.xml
+**** https://www.reddit.com/r/emacs.rss
+*** Web Development                                                     :web:
+**** http://planet.phpunit.de/atom.xml
+**** http://feeds.feedburner.com/symfony/blog
+**** http://feeds.feedburner.com/qooxdoo/blog/content
+*** Eclipse                                                         :eclipse:
+**** http://blog.eclipse-tips.com/feeds/posts/default?alt=rss
+**** http://ed-merks.blogspot.com/feeds/posts/default
+     A description of a feed can be written under any headline.
+     The text will be ignored by elfeed.
+**** http://feeds.feedburner.com/eclipselive                         :ignore:
+**** http://www.fosslc.org/drupal/rss.xml                             :video:
+* News :news:
+** entry-title: \(gaming\|world\|tech\)
+*** https://www.gamingonlinux.com/article_rss.php                     :gaming:
+*** https://hackday.com/blog/feed/                                    :gaming:
+*** https://linux.softpedia.com/backend.xml                           :tech:
+*** https://betanews.com/feed                                         :tech:
