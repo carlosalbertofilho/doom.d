@@ -53,3 +53,6 @@
 (package! virtualenvwrapper
   :recipe (:host github :repo "porterjamesj/virtualenvwrapper.el"
            :files ("virtualenvwrapper" "virtualenvwrapper.el")))
+
+;; eshell-post eshell-prompt-extras
+(package! eshell-prompt-extras)
