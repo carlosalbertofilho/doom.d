@@ -40,5 +40,8 @@ This is my personal configuration of the doom emacs
   + ~magit~              ; a git porcelain for Emacs
   + ~pdf~                ; pdf enhancements
   + ~(rss +org)~         ; emacs as an RSS reader
+  + ~gist~               ; interacting with github gists
+  + ~docker~             ; support for docker in emacs
+  + ~nix~               ; I hereby declare "nix geht mehr!"
 + =packages.el=
   nothing yet.
