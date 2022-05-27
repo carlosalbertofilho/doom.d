@@ -105,7 +105,7 @@
 ;; Optionally specify a number of files containing elfeed
 ;; configuration. If not set then the location below is used.
 ;; Note: The customize interface is also supported.
-(setq rmh-elfeed-org-files (list "~/.doom.d/elfeed.org"))
+(setq rmh-elfeed-org-files (list "~/.config/doom/elfeed.org"))
 
 ;; virtual env wrapper python
 (with-eval-after-load "esh-opt"
