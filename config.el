@@ -85,13 +85,6 @@
 ;;     (find-file tramp-file-name)))
 
 
-;; Personalization shotcut
-
-;; copy from clipboard
-(bind-key \"M-y\" #'clipboard-yank)
-
-;; lsp generic
-(bind-key \",\" #'lsp)
 
 ;; Config Flyspell
 (defun flyspell-english ()
