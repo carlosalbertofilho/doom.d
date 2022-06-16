@@ -85,15 +85,19 @@
 ;;     (find-file tramp-file-name)))
 
 
+;; Config Jest For Emacs
+(use-package jest
+  :after (javascript-mode)
+  :hook (javascript-mode . jest-minor-mode))
 
 ;; Config Flyspell
 (defun flyspell-english ()
   (interactive)
-  (ispell-change-dictionary "default")
+  (ispell-change-dictionary "en")
   (flyspell-buffer))
 (defun flyspell-brasileiro ()
   (interactive)
-  (ispell-change-dictionary "brasileiro")
+  (ispell-change-dictionary "pt_BR")
   (flyspell-buffer))
 
 ;; elfeed-org
