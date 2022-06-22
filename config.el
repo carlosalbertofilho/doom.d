@@ -85,10 +85,11 @@
 ;;     (find-file tramp-file-name)))
 
 
+;; add Docker Compose Mode
+(use-package docker-compose-mode)
+
 ;; Config Jest For Emacs
-(use-package jest
-  :after (javascript-mode)
-  :hook (javascript-mode . jest-minor-mode))
+(use-package jest)
 
 ;; Config Flyspell
 (defun flyspell-english ()
