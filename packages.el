@@ -56,3 +56,9 @@
 
 ;; eshell-post eshell-prompt-extras
 (package! eshell-prompt-extras)
+
+;; Docker-Compose
+(package! docker-compose-mode)
+
+;; Install Jest
+(package! jest-test-mode flycheck-jest jest)
