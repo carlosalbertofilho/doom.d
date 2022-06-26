@@ -84,9 +84,9 @@
 ;;   (let ((tramp-file-name (concat "/doas::" (expand-file-name file-name))))
 ;;     (find-file tramp-file-name)))
 
-
-;; add Docker Compose Mode
-(use-package docker-compose-mode)
+;; Define atalho pata colar do clipboard
+(require 'bind-key)
+(bind-key* "C-S-v" 'clipboard-yank)
 
 ;; Config Jest For Emacs
 (use-package jest)
