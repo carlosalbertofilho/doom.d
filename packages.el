@@ -61,4 +61,6 @@
 (package! docker-compose-mode)
 
 ;; Install Jest
-(package! jest-test-mode flycheck-jest jest)
+(package! jest)
+(package! flycheck-jest)
+(package! jest-test-mode)
