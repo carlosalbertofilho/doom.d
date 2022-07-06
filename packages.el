@@ -64,3 +64,6 @@
 (package! jest)
 (package! flycheck-jest)
 (package! jest-test-mode)
+
+;; Test Robot Framework
+(package! robot-mode)
